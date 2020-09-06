@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 03.
+  Author: Amir H Chinaei
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 3 - My Kit </title>
+  <!-- in Ex1, add a link tag here to connect it to the css file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="myLearningKit.css">
+  
+  <!-- in Ex2, add a script tag here to connect it to the js file -->
+  <script src="myLearningKit.js"></script>
+  
+</head>
+<body>
+
+  <header>
+    <h1> My Computational Thinking Kit </h1>
+	<nav >
+      <!-- In Ex2, add an attribute onclick to button-->
+    
+
+          
+    <button onclick="p01Func()">Add 2 Numbers</button>
+	  <button onclick="p02Func()">Area of triangle</button>
+	  <button onclick="p03Func()">Roots of a Quadratic Equation</button>
+	  <button onclick="p04Func()">Grade Calculator</button>
+	  <button onclick="p05Func()">Positive or Negative</button>
+	  <button onclick="p06Func()">Divisible by 6?</button>
+	  <button onclick="p07Func()">Seperate Digit</button>
+	  <button onclick="p08Func()">Equal 7</button>
+	  <button onclick="p09Func()">Sum of digits</button>
+    <button onclick="p10Func()">Reverse</button>
+    <button onclick="p11Func()">Factorial</button>
+    <button onclick="p12Func()">Fibonaci</button>
+    <button onclick="p13Func()">Triangle Tower</button>
+    <button onclick="p14Func()">Number of roots</button>
+    <button onclick="p15Func()">Prime</button>
+    <button onclick="p16Func()">Sum of array</button>
+    <button onclick="p17Func()">Prime V2</button>
+    <button onclick="p18Func()">Factorial V2</button>
+    <button onclick="p19Func()">Area of rectangle</button>
+    <button onclick="p20Func()">Power of 2</button>
+
+    <button onclick="p21Func()">Convert to Binary</button>
+	  <button onclick="p23Func()">Boom!</button>
+	  <button onclick="p24Func()">Date</button>
+	  <button onclick="p05Func()">Plus or minus?</button>
+	  <button onclick="p08Func()">Numbers of sevens</button>
+	  <button onclick="p29Func()">Sum of digits</button>
+    <button onclick="p10Func()">Palindrome</button>
+    <button onclick="p20Func()">Powers</button>
+    <button onclick="p31Func()">Factorial</button>
+    <button onclick="p19Func()">Area of rectangle</button>
+    <button onclick="p12Func()">Adding previous 2 numbers</button>
+    <button onclick="p06Func()">Divisible test</button>
+    <button onclick="p13Func()">Pyramid</button>
+    <button onclick="p07Func()">Seperation</button>
+    <button onclick="p14Func()">Number of roots</button>
+    <button onclick="p15Func()">1 and itself</button>
+    <button onclick="p19Func()">Area of square</button>
+    <button onclick="p16Func()">Adding all numbers in an array</button>
+    <button onclick="p17Func()">Sub Algorithm of prime</button>
+    <button onclick="p18Func()">Factorial V3</button>
+   
+    
+	</nav>
+  </header>
+  
+  <div id="problem" class="problem">
+  </div>
+  <div class="column1 design">
+    <!-- in Ex3, add an attribute onclick to the following input-->
+	<input id="check1" type="checkbox" onclick="checkUncheck1()"/> Design
+
+    <!-- in Ex5, add attributes onclick and ondblclick to the following img-->
+ 	<img id="flowchart" src="null" alt="null" ondblclick="zoomIn()" onclick="zoomOut()"/>
+  </div>
+  <div class="column2 jsSolution">
+	<input id="check2" type="checkbox"onclick="checkUncheck2()"/> JavaScript Solution
+	 <img id="js" src="null" alt="null" />
+  </div>
+  <div class="column3 otherSolution">
+	<input id="check3" type="checkbox" onclick="checkUncheck3()"/> Another Solution
+	<img id="another" src="null" alt="null" />
+  </div>
+
+  <footer>(c) Author of this web page: <span><!--In Ex 1, replace your name here-->Brian</span> </footer>
+</body>
+</html>
